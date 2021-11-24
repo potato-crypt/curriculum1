@@ -14,16 +14,15 @@ public class Task1_2 {
         String [] strarray = {"りんご","もも","ぶどう"};
 
         // ④ ③で作成した配列の2番目の要素を出力しなさい。
-        System.out.println(strarray[2]);
+        System.out.println(strarray[1]);
         /* ⑤下記の処理について、何をしているのかコメントを記入してください。
          *  [10から１０の倍数を５個初期値としたint型のintArrayという配列を宣言]
          */
         int[] intArray = { 10, 20, 30, 40, 50 };
 
         // ⑥下記の処理について、何をしているのかコメントを記入してください。
-        // [配列intarrayの１番目と４番目の要素を足し算した上で出力。よって実行結果は70になる]
+        // [配列intarrayの１番目と４番目の要素を足し算した上で出力。よって実行結果は50になる]
         System.out.println(intArray[1] + intArray[4]);
 
-       
-    }
-}
+        }
+     }
